@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Favorite Recipes</title>
+
+    <style>
+        body {
+            background-color: #fdf6e3;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #b45309;
+        }
+
+        h2 {
+            color: #92400e;
+        }
+
+        .toc {
+            background-color: #fde68a;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin-bottom: 15px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #fde68a;
+        }
+
+        .recipe {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍽️ My Favorite Recipe Book</h1>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>📖 Table of Contents</h2>
+        <ul>
+            <li><a href="#pancakes">Fluffy Pancakes</a></li>
+            <li><a href="#pasta">Creamy Pasta</a></li>
+            <li><a href="#salad">Fresh Greek Salad</a></li>
+        </ul>
+    </div>
+
+    <!-- Recipe 1 -->
+    <div class="recipe" id="pancakes">
+        <h2>🥞 Fluffy Pancakes</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Stack_of_pancakes.jpg" alt="Pancakes">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Egg</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>2 tbsp</td>
+            </tr>
+        </table>
+
+        <h3>Details</h3>
+        <ul>
+            <li>Preparation time: 10 minutes</li>
+            <li>Cooking time: 10 minutes</li>
+            <li>Serves: 2 people</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Mix all dry ingredients in a bowl.</li>
+            <li>Add milk and egg, then whisk until smooth.</li>
+            <li>Cook on a hot pan until bubbles appear.</li>
+            <li>Flip and cook until golden.</li>
+        </ol>
+
+        <p>
+            Source:
+            <a href="https://en.wikipedia.org/wiki/Pancake" target="_blank">
+                Wikipedia – Pancake
+            </a>
+        </p>
+    </div>
+
+    <!-- Recipe 2 -->
+    <div class="recipe" id="pasta">
+        <h2>🍝 Creamy Pasta</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Pasta_Alfredo.jpg" alt="Pasta">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Pasta</td>
+                <td>200 g</td>
+            </tr>
+            <tr>
+                <td>Cream</td>
+                <td>100 ml</td>
+            </tr>
+            <tr>
+                <td>Cheese</td>
+                <td>50 g</td>
+            </tr>
+            <tr>
+                <td>Garlic</td>
+                <td>1 clove</td>
+            </tr>
+        </table>
+
+        <h3>Details</h3>
+        <ul>
+            <li>Preparation time: 5 minutes</li>
+            <li>Cooking time: 15 minutes</li>
+            <li>Difficulty: Easy</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <p>Boil the pasta until al dente.</p>
+        <p>In another pan, heat cream with garlic.</p>
+        <p>Add pasta and cheese, then mix well.</p>
+
+        <p>
+            Source:
+            <a href="https://en.wikipedia.org/wiki/Alfredo_sauce" target="_blank">
+                Wikipedia – Alfredo Sauce
+            </a>
+        </p>
+    </div>
+
+    <!-- Recipe 3 -->
+    <div class="recipe" id="salad">
+        <h2>🥗 Greek Salad</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Greek_Salad.jpg" alt="Greek salad">
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Tomatoes</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cucumber</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Feta cheese</td>
+                <td>100 g</td>
+            </tr>
+            <tr>
+                <td>Olives</td>
+                <td>Handful</td>
+            </tr>
+        </table>
+
+        <h3>Details</h3>
+        <ul>
+            <li>Preparation time: 10 minutes</li>
+            <li>Cooking required: No</li>
+            <li>Best for: Summer</li>
+        </ul>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Chop vegetables.</li>
+            <li>Add olives and feta.</li>
+            <li>Drizzle with olive oil and mix.</li>
+        </ol>
+
+        <p>
+            Source:
+            <a href="https://en.wikipedia.org/wiki/Greek_salad" target="_blank">
+                Wikipedia – Greek Salad
+            </a>
+        </p>
+    </div>
+
+</body>
+</html>
