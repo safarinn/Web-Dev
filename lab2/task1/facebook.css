@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.facebook-page{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:space;
+    min-height: 100vh;
+}
+
+.facebook-page .container{
+    position:relative;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+}
+
+.container .textbox{
+    display:flex;
+    flex-direction:column;
+}
+.textbox .logo{
+    font-size: 3.5rem;
+    color:#1877f2;
+}
+
+
+.textbox p{
+    font-size:1.2rem;
+    font-weight:500;
+    margin-bottom:5rem;
+    max-width:400px;
+}
+
+.login form{
+    display:flex;
+    flex-direction:column;
+    background: #fff;
+    padding:20px;
+    width:396px;
+    border-radius:8px;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%),
+0 8px 16px rgb(0 0 0 / 10%);
+}
+
+form input{
+    border: 1px solid #dddfe2;
+    outline:none;
+    padding: 8px 16px;
+    margin-bottom:12px;
+    font-size:1rem;
+    border-radius:6px;
+}
+
+form input focus{
+    border:1.8px solid #0066cc;
+}
+
+form .login{
+    outline:none;
+    border:none;
+    padding:8px 16px;
+    border-radius:6px;
+    background:#0066cc;
+    color:#fff;
+    font-size:1.1rem;
+}
+
+form .login:hover{
+    cursor:pointer;
+}
+
+form a{
+    text-decoration:none;
+    text-align:center;
+    font-size:1rem;
+    color:#1877f2;
+    padding-top:12px;
+}
+
+form hr{
+    background: #f7f7f7;
+    margin:1rem;
+}
+
+form .create-new-account{
+    outline:none;
+    border:none;
+    background: #06b909;
+    padding:8px 16px;
+    border-radius:6px;
+    font-size:1rem;
+    color:#fff;
+    width:60%;
+    margin:0 auto;
+}
+
+form .create-new-account:hover{
+    cursor:pointer;
+}
+
+.login p{
+    margin-top:20px;
+    font-size:0.8rem;
+    text-align:center;
+}
+
+.login span{
+    font-weight:bold;
+
+}
+
+@media (max-width: 820px){
+    html{
+        font-size:75%;
+    }
+
+    .container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .textbox{
+        margin:0;
+        text-align:center;
+    }
+
+    form{
+        width:300px;
+        height:fit-content;
+    }
+
+    form .login{
+        font-size:1.5rem;
+    }
+
+    form a{
+        font-size:1.5rem;
+    }
+
+    form .create-new-account{
+        font-size:1.2rem;
+    }
+
+    form input{
+        margin-bottom:1rem;
+        font-size:1.5rem;
+    }
+
+    .login p{
+        font-size:1rem;
+    }
+
+
+}
+
+.footer{
+    padding:40px 20px;
+    font-size:12px;
+    color:#8e8e8e;
+    text-align:left;
+
+}
+
+.footer-links{
+    margin-bottom:15px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #dbdbdb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color:#8e8e8e;
+}
+
+
+.footer-bottom a{
+    text-decoration: none;
+    color:#8e8e8e;
+}
+
+.footer-links a:hover{
+    text-decoration:underline;
+}
+.footer-bottom a:hover{
+    text-decoration:underline;
+}
+
+.footer span{
+    display: block;
+    margin-top:20px;
+}
+
+.add-lang {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccd0d5;
+    background: #f5f6f7;
+    color: #4b4f56;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.add-lang:hover {
+    background: #ebedf0;
+}
