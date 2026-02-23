@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    color: #24292f;
+    background: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 30px 30px;
+
+}
+.navbar input{
+    margin-left: auto;
+    font-size: 20px;
+}
+ .auth{margin-left: auto;
+     display: flex;
+     align-items: center;
+     gap: 15px;
+ }
+.auth a{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    color: #24292f;
+
+    border-radius: 5px;
+    margin-left: 15px;
+    gap: 100px;
+    align-items: center;
+}
+.auth a:hover{border: 1px solid #24292f;}
+
+.logo{
+    width: 30px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.nav-links a {
+    padding: 8px;
+    text-decoration: none;
+    color: #24292f;
+    font-size: 18px;
+
+}
+.nav-links a:hover {
+    color: #a5aebd;
+}
+
+.auth {
+    display: flex;
+    justify-content: end;
+   padding:10px;
+    text-decoration: none;
+    color: #24292f;
+}
+
+
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    color: #57606a;
+    max-width: 600px;
+    margin: 0 auto 25px;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #24292f;
+    color: #fff;
+    font-weight: 600;
+}
+.hero button:hover {
+    background: #24292f;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* PRICING */
+.pricing {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+}
+
+.price .amount {
+    font-size: 48px;
+    font-weight: 600;
+    color:black;
+}
+
+.price .currency {
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 6px;
+}
+
+.price .period {
+    font-size: 14px;
+    color: #57606a;
+    margin-bottom: 6px;
+}
+.price .usd{
+    color:black;
+}
+
+.subtitle{
+    color: #57606a;
+   font-size: 14px;
+}
+.card {
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+    width: 280px;
+    padding: 30px;
+    text-align: center;
+}
+.blue{
+    color: #396be3;
+    font-family: 'Poppins', sans-serif;
+}
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card .white{
+    background: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    width: auto;
+    padding: 8px 12px;
+    white-space: nowrap;
+
+}
+.card .white:hover{
+    border: 1px solid #24292f;
+}
+
+.card ul {
+    text-align: left;
+    margin-top: 20px;
+    color: #616978;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.card ul li:hover {
+    color: #24292f;
+}
+
+
+
+/* BUTTONS */
+.card button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    background: #f6f8fa;
+    font-weight: 600;
+}
+.actions{
+    display: inline-flex;
+
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.actions .dark {
+
+    border-radius: 6px;
+    border: none;
+    background: #24292f;
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+
+
+    display: inline-block;
+    width: auto;
+    padding: 5px 12px;
+}
+.actions .dark:hover {
+    background: #24292f;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .team{
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #24292f;
+    color: #fff;
+    font-weight: 600;
+}
+.card .team:hover{
+    background: #24292f;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* FEATURED */
+.featured {
+    border: 2px solid #0969da;
+    position: relative;
+}
+
+.recommended {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0969da;
+    color: #fff;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+}
+
+
+
